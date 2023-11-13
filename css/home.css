@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: sans-serif;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1, h2, h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+#navbar{
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar h1{
+    float: left;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: inline-block;
+    padding: 28px;
+}
+#navbar ul li a:hover, #navbar ul li a.current{   
+    background-color: #444;
+    color: #f7c08a;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.container img{
+    width: 100px;
+}
+.text-primary{
+    color: #f7c08a;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+.btn-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.btn-dark{
+    background-color: #333;
+    color: #fff;
+}
+.bg-dark{
+    background-color: #333;
+    color: #fff;
+}
+.bg-primary{
+    background-color: #f7c08a;
+    color: #333;
+}
+.clr{
+    clear: both;
+}
+#showcase{
+    background-image: url("../img/showcase.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+ #showcase .showcase-content{
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+#showcase h1{
+    font-size: 60px;
+}
+#showcase p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1900px) {
+    #navbar{
+        height: 74px;
+    }
+    .img{
+        height: 70px;
+    }
+}
+@media only screen and (max-width: 960px) {
+    h1, h2, h3{
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    #navbar ul li a{
+        padding: 26px;
+    }
+    .container{
+        max-width: 960px;
+        height: 26px;
+    }
+    #showcase h1{
+        font-size: 58px;
+    }
+    #showcase p{
+        font-size: 18px;
+    }
+    .btn{
+        font-size: 16px;
+        padding: 11px 18px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    h1, h2, h3{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    #navbar ul li a{
+        padding: 24px;
+    }
+    .container{
+        max-width: 720px;
+        height: 24px;
+    }
+    #showcase h1{
+        font-size: 56px;
+    }
+    #showcase p{
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 9px 16px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    h1, h2, h3{
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    #navbar ul li a{
+        padding: 21px;
+    }
+    .container{
+        max-width: 540px;
+        height: 21px;
+    }
+    #showcase h1{
+        font-size: 45px;
+    }
+    #showcase p{
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 12px;
+        padding: 7px 14px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    h1, h2, h3{
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+    #navbar ul li a{
+        font-size: 12px;
+        padding: 14px;
+    }
+    .container{
+        max-width: 320px;
+        height: 21px;
+    }
+    .container img{
+        width: 63px;
+        position: absolute;
+
+    }
+    #showcase h1{
+        font-size: 40px;
+    }
+    #showcase p{
+        font-size: 12px;
+    }
+    .btn{
+        font-size: 10px;
+        padding: 6px 13px;
+    }
+}

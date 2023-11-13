@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 500ms;
+}
+html, body{
+    font-family: sans-serif;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+#navbar{
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    float: left;
+
+}
+#navbar ul li a{
+    display: inline-block;
+    padding: 30px;
+}
+#navbar ul li a:hover, #navbar ul li a.current   {   
+    background-color: #444;
+    color: #f7c08a;
+}
+.container2{
+    max-width: 1400px;
+    margin: auto;
+    background-color: #e8e8e8;
+}
+.img{
+    width: 100px;
+    height: 70px;
+    margin: 3px;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+    padding: 2px 17px;
+    border: none;
+    cursor: pointer;
+    margin-left: 230px;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+.flex{
+    display: flex;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 15px;
+}
+.p-block{
+    display: block;
+}
+.img1{
+    width: 700px;
+    margin: 10px 20px;
+}
+.img2{
+    width: 700px;
+    margin: 10px 20px;
+}
+.title{
+    color: rgb(100, 92, 92);
+    font-weight: 900;
+    margin: 15px 165px;
+}
+.in-p{
+    color: rgb(100, 92, 92);
+    font-weight: 900;
+}
+#with-size{
+    font-size: 22px;
+}
+.flex p{
+    font-size: 20px;
+}
+@media only screen and (max-width: 1900px){
+    .container{
+        max-width: 1200px;
+    }
+    .title{
+        margin: 0 131px;
+        font-weight: 900;
+    }
+}
+@media only screen and (max-width: 1261px){
+    .title{
+        margin: 28px;
+    }
+    p{
+        font-size: 18px;
+        margin: 0 20px;
+    }
+    .btn{
+        font-size: 18px;
+        margin-left: 90px;
+    }
+    #with-size{
+        font-size: 18px;
+    }
+    .flex p{
+        font-size: 18px;
+    }
+    .img1{
+        width: 650px;
+    }
+    .img2{
+        width: 650px;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .flex{
+        display: block;
+    }
+    .img1{
+        max-width: 960px;
+        margin: 10px auto;
+    }
+    .img2{
+        width: 700px;
+        margin: 10px auto;
+    }
+    p{
+        font-size: 20px;
+        margin: 0 20px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .container{
+        max-width: 760px;
+    }    
+    #navbar{
+        max-width: 760px;
+    }
+    #with-size{
+        font-size: 20px;
+    }
+    .flex p{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 649px) {
+    .img1{
+        width: 375px;
+    }
+    .img2{
+        width: 375px;
+    }
+    #with-size{
+        font-size: 15px;
+    }
+    .flex p{
+        font-size: 15px;
+    }
+    .title{
+        margin: 10px 87px;
+    }
+    .btn{
+        margin-left: 110px;
+        font-size: 15px;
+    }
+    #navbar ul li a{
+        padding: 15px;
+        font-size: 13px;
+    }
+    #navbar{
+        height: 46px;
+    }
+    .img{
+        height: 48px;
+        width: 60px;
+    }
+}
+@media only screen and (max-width: 412px) {
+    .img1{
+        width: 300px;
+    }
+    .img2{
+        width: 300px;
+    }
+    #with-size{
+        font-size: 11px;
+    }
+    .flex p{
+        font-size: 11px;
+    }
+    .title{
+        margin: 6px 80px;
+    }
+    .btn{
+        margin-left: 110px;
+        font-size: 11px;
+    }
+    #navbar ul li a{
+        padding: 14px;
+        font-size: 12px;
+    }
+    #navbar{
+        height: 41px;
+    }
+    .img{
+        height: 41px;
+        width: 57px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .img1{
+        width: 280px;
+    }
+    .img2{
+        width: 280px;
+    }
+    #with-size{
+        font-size: 12px;
+    }
+    .flex p{
+        font-size: 12px;
+    }
+    .title{
+        margin: 10px 41px;
+    }
+    .btn{
+        margin-left: 80px;
+        font-size: 12px;
+    }
+    #navbar ul li a{
+        padding: 14px;
+        font-size: 12px;
+    }
+    #navbar{
+        height: 43px;
+    }
+    .img{
+        height: 42px;
+        width: 55px;
+    }
+}    
